@@ -7,120 +7,185 @@ var inputtypevalue,resulttypevalue;
 
 
 var list = new Map([
-     ["kinnaur",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["kinnaurvals",[1.3716,1.881286,37.6257312,752.514624]],
+     ["kinnaur",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["kinnaurvals",[0.09290,1.3716,1.881286,37.6257312,752.514624]],
       
-           ["bilaspur",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["bilaspurvals",[1.3716,1.881286,37.6257312,752.514624]],
+           ["bilaspur",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["bilaspurvals",[0.09290,1.3716,1.881286,37.6257312,752.514624]],
      
-          ["shimla",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["shimlavals",[1.3716,1.881286,37.6257312,752.514624]],
+          ["shimla",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["shimlavals",[0.09290,1.3716,1.881286,37.6257312,752.514624]],
      
-     ["solan",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["solanvals",[1.3716,1.881286,37.6257312,752.514624]],
+     ["solan",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["solanvals",[0.09290,1.3716,1.881286,37.6257312,752.514624]],
      
-     ["mandi",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["mandivals",[1.4224,2.02322,40.4644,809.28870]],
+     ["mandi",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["mandivals",[0.09290,1.4224,2.02322,40.4644,809.28870]],
      
-      ["kullu",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["kulluvals",[1.4224,2.02322,40.4644,809.28870]],
+      ["kullu",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["kulluvals",[0.09290,1.4224,2.02322,40.4644,809.28870]],
      
-      ["chamba",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["chambavals",[1.4224,2.02322,40.4644,809.28870]],
+      ["chamba",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["chambavals",[0.09290,1.4224,2.02322,40.4644,809.28870]],
      
-      ["lahul",["Karam","Sq Karam","Biswa","Bigha"]],
-     ["lahulvals",[1.4224,2.02322,40.4644,809.28870]],
+      ["lahul",["sq foot","Karam","Sq Karam","Biswa","Bigha"]],
+     ["lahulvals",[0.09290,1.4224,2.02322,40.4644,809.28870]],
      
      
-      ["una",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["unavals",[1.4605,2.13306025,19.19754225,383.950845,3071.60676]],
+      ["una",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["unavals",[0.09290,1.4605,2.13306025,19.19754225,383.950845,3071.60676]],
      
-     ["kangra",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["kangravals",[1.4605,2.13306025,19.19754225,383.950845,3071.60676]],
+     ["kangra",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["kangravals",[0.09290,1.4605,2.13306025,19.19754225,383.950845,3071.60676]],
      
-     ["hamirpur",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["hamirpurvals",[1.4605,2.13306025,19.19754225,383.950845,3071.60676]],
+     ["hamirpur",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["hamirpurvals",[0.09290,1.4605,2.13306025,19.19754225,383.950845,3071.60676]],
      
-      ["solan1",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["solan1vals",[1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
+      ["solan1",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["solan1vals",[0.09290,1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
      
-     ["una1",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["una1vals",[1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
+     ["una1",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["una1vals",[0.09290,1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
      
-     ["kangra1",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["kangra1vals",[1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
+     ["kangra1",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["kangra1vals",[0.09290,1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
      
-     ["hamirpur1",["Karam","Sq Karam","Marla","Kanal","Ghumao"]],
-     ["hamirpur1vals",[1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
+     ["hamirpur1",["sq foot","Karam","Sq Karam","Marla","Kanal","Ghumao"]],
+     ["hamirpur1vals",[0.09290,1.6764,2.81031696,25.29285264,505.8570528,4046.8564224]],
      
 ]);
 
 
 
-
 var areafrom = document.getElementById("areatypefrom");
 areafrom.value= "";
+var preareafrom = getCookie("preareafrom");
+var preareato = getCookie("preareato");
+var pretypefrom = getCookie("pretypefrom");
+var pretypeto = getCookie("pretypeto");
+var tohold = getCookie("tohold");
+var fromhold = getCookie("fromhold");
 var fromtype = document.getElementById("fromtype");
 var totype = document.getElementById("totype");
 var areato = document.getElementById("areatypeto");
-var fromhold = 0;
-var tohold = 0;
-areafrom.onchange = function(){
-      var sub = list.get(areafrom.value);
-      var subvals = list.get(areafrom.value+"vals");
-      var s = 0;
-      for(var i=0;i<sub.length;i++){
-           fromtype.options[i] = new Option(sub[i],subvals[i]);
-           s = s +1;
-      }
-      fromtype.options[s] = new Option("From type","");
-      fromtype.value = "";
-      fromtype.onchange = function(){
-             fromhold = fromtype.value;
-             input.addEventListener("keyup", myresult);
 
+if(fromhold!=null && tohold!=null){
+ input.addEventListener("keyup", myresult);
+            function myresult(){
+            if(input.value!=NaN){
+               var ans = fromhold*(input.value)*tohold;
+               result.value = ans;
+               }
+            }
+}
+if(tohold==null){ tohold = 0; } 
+if(fromhold==null){ fromhold = 0; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              function myresult(){
-              if(input.value!=NaN){
-                 var ans = fromhold*(input.value)*tohold;
-                 result.value = ans;
-                 }
+if(preareafrom!=null){
+    areafrom.value = preareafrom;
+    areafromonchange();
+}
+if(preareato!=null){
+    areato.value = preareato;
+    areatoonchange();
+}
+if(pretypefrom!=null){
+    fromtype.value = pretypefrom;
+}
+if(pretypeto!=null){
+    totype.value = pretypeto;
+}
+areafrom.onchange = () => areafromonchange();
+areato.onchange = () => areatoonchange();
+function areatoonchange(){
+    setCookie("preareato",areato.value,7);
+    var sub = list.get(areato.value);
+    var subvals = list.get(areato.value+"vals");
+    var s = 0;
+    for(var i=0;i<sub.length;i++){
+         totype.options[i] = new Option(sub[i],subvals[i]);
+         s = s+1;
+    }
+    totype.options[s] = new Option("To Type","");
+    if(pretypeto==null){
+    totype.value = "";
+    }else{
+      totype.value = pretypeto;
+    }
+    totype.onchange = function(){
+      setCookie("pretypeto",totype.value,7);
+          tohold = 1/totype.value;
+          setCookie("tohold",tohold,7);
+          if(input.value!=NaN){
+              var ans = fromhold*(input.value)*tohold;
+              result.value = ans;
               }
-      }
+    }
 }
-areato.onchange = function(){
-      var sub = list.get(areato.value);
-      var subvals = list.get(areato.value+"vals");
-      var s = 0;
-      for(var i=0;i<sub.length;i++){
-           totype.options[i] = new Option(sub[i],subvals[i]);
-           s = s+1;
-      }
-      totype.options[s] = new Option("To Type","");
-      totype.value = "";
-      totype.onchange = function(){
-            tohold = 1/totype.value;
-      }
+function areafromonchange(){
+    setCookie("preareafrom",areafrom.value,7);
+    var sub = list.get(areafrom.value);
+    var subvals = list.get(areafrom.value+"vals");
+    var s = 0;
+    for(var i=0;i<sub.length;i++){
+         fromtype.options[i] = new Option(sub[i],subvals[i]);
+         s = s +1;
+    }
+    fromtype.options[s] = new Option("From type","");
+    if(pretypefrom==null){
+    fromtype.value = "";
+    }else{
+      fromtype.value = pretypefrom;
+    }
+    fromtype.onchange = function(){
+           setCookie("pretypefrom",fromtype.value,7);
+           fromhold = fromtype.value;
+           setCookie("fromhold",fromhold,7);
+           input.addEventListener("keyup", myresult);
+            function myresult(){
+            if(input.value!=NaN){
+               var ans = fromhold*(input.value)*tohold;
+               result.value = ans;
+               }
+            }
+    }
 }
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+
+function deleteAllCookies() {
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+}
+
 
 
 
@@ -179,6 +244,4 @@ FAQHeaders.forEach((header, i) => {
      }
     });
 });
-
-
 
